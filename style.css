@@ -1,0 +1,58 @@
+body{
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg, #8781d6 100%, #ffffff 100%);
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.contenedor{
+    text-align: center;
+    padding: 20px;
+    background-color: #aeaecf;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Ajusta según tus necesidades */
+    width: 100%;
+    position: relative;
+}
+
+#texto {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fffffffd;
+}
+
+#descargarBoton {
+    background: linear-gradient(90deg, #8781d6 100%, #ffffff 100%);
+    color: #fffffffd;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#descargar {
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+}
+
+#codigoQR{
+    margin-top: 20px;
+}
+
+.botonYQR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
