@@ -15,8 +15,8 @@ document.addEventListener("DOMContentLoaded", function () {
             
             var qr = new QRCode(document.getElementById("codigoQR"), {
                 text: "https://github.com/fegy0/fegy0.github.io/blob/b0db38e167d17b7418dda896e74ccd62a0dfb494/app-debug.apk",
-                width: 128,
-                height: 128
+                width: 250,
+                height: 250
             })
         }
     });
