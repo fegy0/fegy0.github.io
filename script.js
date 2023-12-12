@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if(userAgent.match(/android|webos|iphone|ipad|ipod|blackberry|windows phone/i))
         {
-            window.location.href = "APK/app-debug.apk";
+            window.location.href = "https://github.com/fegy0/fegy0.github.io/blob/b0db38e167d17b7418dda896e74ccd62a0dfb494/app-debug.apk";
         } else {
             codigoQR.style.display = "block";
             
