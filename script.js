@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             codigoQR.style.display = "block";
             
             var qr = new QRCode(document.getElementById("codigoQR"), {
-                text: "https://github.com/fegy0/freddydiaz.github.io/blob/141fd7f7a833e85c5d95818b97514615e0d3ed2b/app-debug.apk",
+                text: "https://github.com/fegy0/fegy0.github.io/blob/b0db38e167d17b7418dda896e74ccd62a0dfb494/app-debug.apk",
                 width: 128,
                 height: 128
             })
