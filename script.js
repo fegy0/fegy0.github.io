@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if(userAgent.match(/android|webos|iphone|ipad|ipod|blackberry|windows phone/i))
         {
-            window.location.href = "https://github.com/fegy0/fegy0.github.io/releases/download/1.0v/app-debug.apk";
+            window.location.href = "https://github.com/fegy0/fegy0.github.io/releases/download/v.1/app-debug.apk";
         } else {
             codigoQR.style.display = "block";
             
             var qr = new QRCode(document.getElementById("codigoQR"), {
-                text: "https://github.com/fegy0/fegy0.github.io/releases/download/1.0v/app-debug.apk",
+                text: "https://github.com/fegy0/fegy0.github.io/releases/download/v.1/app-debug.apk",
                 width: 250,
                 height: 250
             })
