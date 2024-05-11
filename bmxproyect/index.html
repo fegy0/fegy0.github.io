@@ -6,19 +6,28 @@
     <title>bmxproyect</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/144f291eb3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav>
-        <ul class="sidebar">
-            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href="#">bmxproyect(logo)</a></li>
-            <li><a href="#">Login</a></li>
-        </ul>
-        <ul>
-            <li onclick= showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
-            <li class="hideSidebarOn"><a href="#">bmxproyect(logo)</a></li>
-            <li class="hideOnMobile"><a href="#">Login</a></li>
-        </ul> 
-    </nav>
+    <div class="nav-contenedor">
+        <nav>
+            <ul>
+                <li><a href="" class="fa-solid fa-bars"></a></li>
+            </ul>
+    
+            <div class="contenedor">
+                <div class="logo">bmXProyect</div>
+                <div class="search-bar">
+                    <input type="search" placeholder="Busca alguna pieza">
+                    <span class="fa fa-search"></span>
+                </div>
+            </div>
+    
+            <ul>
+                <li><a href="#" class="fa-solid fa-user" ></a></li>
+            </ul>
+    
+        </nav>
+    </div>
 </body>
 </html>
